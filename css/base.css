@@ -1,0 +1,26 @@
+:root {
+  --bg-primary:           #CFDBD5;
+  --bg-secondary:           linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+  --primary-font-color:   #ECEFF1;
+  --secondary-font-color: #212121;
+  --btn-main-color:       #212121;
+  --btn-secondary-color:  #BDBDBD;
+  --btn-form-color:       rgb(236,175,84);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header, main, footer {
+  padding: 15px;
+}
+
+h1 { font-size: clamp(18px, 5vw, 50px); }
+h2 { font-size: clamp(15px, 4vw, 30px); }
+
+html {
+  font-size:    min(3.2vw, 14px);
+  font-family:  "Raleway", sans-serif;
+  color:        var(--primary-font-color);
+}
